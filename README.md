@@ -13,7 +13,7 @@ How to use it:
             var r = g.GoogleGeoCodeInfo(new Address { Address1 = address, City = city, State = state, Zip = zip });
             if (g.GeoResult == vpGeo.Result.OK)
             {
-                return Json(new {lat=decimal.Parse(r.Result[0].Geometry.Location.Lat),lon=decimal.Parse(r.Result[0].Geometry.Location.Long)});
+                //view results on variable r
             }
             
 <b>Remember:</b> this is for testing only. Make your own adjustments.
