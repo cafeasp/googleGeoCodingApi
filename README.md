@@ -1,4 +1,4 @@
-# googleGeoCodingApi
+# Google Geo Coding Api Demo
 Geocoding is the process of converting addresses (like "1600 Amphitheatre Parkway, Mountain View, CA") into geographic coordinates (like latitude 37.423021 and longitude -122.083739), which you can use to place markers on a map, or position the map.
 This code is base on Google https://developers.google.com/maps/documentation/geocoding/intro using basic javascript and I will use .net on the backend/server.
 
